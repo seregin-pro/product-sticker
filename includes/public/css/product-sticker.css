@@ -1,0 +1,119 @@
+/* General */
+
+.product-type-simple {
+	overflow: visible !important;
+}
+
+.sticker-catalog > div, .sticker-product > div {
+	background-repeat: no-repeat;
+}
+.sticker-catalog, .sticker-product {
+	position: absolute;
+	top: 5px;
+	z-index: 1;
+}
+.sticker-right {	
+	right:0px;
+}
+.sticker-left {	
+	left:0px;
+}
+.sticker-catalog a, .sticker-product a, .sticker-catalog, .sticker-product {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	color: #fff !important;
+	font-weight: bold;
+	text-transform: uppercase !important;
+}
+.sticker-catalog > div + div, .sticker-product > div + div {
+	margin-top: 2px;
+}
+.sticker-right > div {
+	margin-left: auto;
+}
+
+/* Star */
+
+.sticker-star {
+    overflow: hidden;
+	width: 70px;
+	height: 70px;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+	font-size: 10px;
+	line-height: 12px;
+	transform: rotate(-27deg);
+}
+.sticker-left .sticker-star {
+	margin-left: 5px;
+}
+.sticker-right .sticker-star {
+	margin-right: 5px;
+}
+.sticker-star > div {
+	position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+	width: 50px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.sticker-star.sticker-percent > div {
+	font-size: 20px;
+	line-height: 20px;
+}
+
+/* Ribbon */
+
+.sticker-ribbon {
+	white-space: nowrap;
+    overflow: hidden;
+	width: 120px;
+	height: 40px;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+	font-size: 11px;
+	line-height: 18px;
+	padding: 3px 0 0 0;
+}
+.sticker-left .sticker-ribbon {
+	margin-left: -11px;
+}
+.sticker-right .sticker-ribbon {
+	margin-right: -11px;
+	transform: scale(-1, 1);
+}
+.sticker-right .sticker-ribbon > div {
+	transform: scale(-1, 1);
+}
+
+/* Diagonal */
+
+.sticker-diagonal {
+	white-space: nowrap;
+    overflow: hidden;
+	width: 112px;
+	height: 112px;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+	font-size: 12px;
+	line-height: 19px;
+	padding: 4px 0 0 0;
+	margin-top: -12px;
+}
+.sticker-left .sticker-diagonal {
+	margin-left: -7px;
+}
+.sticker-left .sticker-diagonal div {
+	width: 85px;
+	margin-top: 24px;
+	margin-left: -5px;
+    transform: rotate(-45deg);
+}
+.sticker-right .sticker-diagonal {
+	margin-right: -7px;
+	transform: scale(-1, 1);
+}
+.sticker-right .sticker-diagonal div {
+	width: 85px;
+	margin-top: 24px;
+	margin-left: -5px;
+    transform: scale(-1, 1) rotate(45deg);
+}
